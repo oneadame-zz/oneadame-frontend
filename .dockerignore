@@ -1,8 +1,7 @@
 .recaptcha
 .DS_Store
-node_modules
 .yml
-docker-compose*
+node_modules
 /dist
 
 

@@ -5,6 +5,13 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
+declare global {
+  interface Window { grecaptcha: object }
+}
+window.grecaptcha = window.grecaptcha || {};
+
+Vue.prototype.$grecaptcha = window.grecaptcha;
+
 new Vue({
   router,
   store,

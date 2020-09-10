@@ -1,24 +1,11 @@
 # oneadame
+Frontend for oneadame.com. Built with:
+* Typescript
+* Vue.js
+* Vuex
+* Vue Router
+* Vue Class Components https://github.com/vuejs/vue-class-component
+* Vue Property Decorators https://github.com/kaorun343/vue-property-decorator
+* Vuex Module Decorators https://github.com/championswimmer/vuex-module-decorators
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Running in AWS ECS on nginx.
